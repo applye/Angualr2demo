@@ -1,0 +1,49 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "angular2.0 practice.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --colors --progress",
+    "webpack": "webpack --config webpack.config.js",
+    "postionstall": "./node_modules/./bin/typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applye/Angualr2demo.git"
+  },
+  "keywords": [
+    "angular2.0",
+    "demo"
+  ],
+  "author": "xiaochen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/applye/Angualr2demo/issues"
+  },
+  "homepage": "https://github.com/applye/Angualr2demo#readme",
+  "dependencies": {
+    "@angular/common": "~2.1.0",
+    "@angular/compiler": "~2.1.0",
+    "@angular/core": "~2.1.0",
+    "@angular/forms": "~2.1.0",
+    "@angular/http": "~2.1.0",
+    "@angular/platform-browser": "~2.1.0",
+    "@angular/platform-browser-dynamic": "~2.1.0",
+    "@angular/router": "~3.1.0",
+    "@angular/upgrade": "~2.1.0",
+    "angular-in-memory-web-api": "~0.1.5",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+    "path": "^0.12.7",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0",
+    "webpack": "^2.3.3"
+  }
+}
